@@ -16,6 +16,7 @@ class is a controller advice with intent to handle error messages. For example, 
 we annotate a domain class property with `@NotNull('Please provide some value')` this 
 message can be send to requestor to handle it. In Angular, for example, we can do this 
 to handle all validation messages:
+
 ``
     this.http.post((...))
       .subscribe(

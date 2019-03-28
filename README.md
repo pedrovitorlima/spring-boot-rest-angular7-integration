@@ -17,7 +17,7 @@ we annotate a domain class property with `@NotNull('Please provide some value')`
 message can be send to requestor to handle it. In Angular, for example, we can do this 
 to handle all validation messages:
 
-``
+```typescript
     this.http.post((...))
       .subscribe(
         response => {
@@ -28,7 +28,7 @@ to handle all validation messages:
           console.log(<any>error.error.errors);
         }
       )
-`` 
+```
 
 This class has a method called `handleMethodArgumentNotValid` that creates a list of 
 String and fill it with field and global errors. After this, return a HTTP Bad Request 

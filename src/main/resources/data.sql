@@ -1,3 +1,5 @@
+insert into user values(1, 'bruce.dickinson', 'bruce.dickinson');
+
 INSERT INTO product (id, name, price) VALUES (1, 'BOSTITCH 18V LITHIUM DRILL/IMPACT COMBO KIT, BTCK410L2', 3640.79);
 INSERT INTO product (id, name, price) VALUES (2, 'BUFFALO TOOLS 5 SPEED DRILL PRESS', 9331.39);
 INSERT INTO product (id, name, price) VALUES (3, 'CAMPBELL HAUSFELD 62 PIECE AIR TOOL KIT', 4006.30);

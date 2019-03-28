@@ -1,4 +1,4 @@
-package br.pedro.sandbox.springandangular.config;
+package br.pedro.sandbox.springandangular.security.filter;
 
 import java.io.IOException;
 
@@ -15,8 +15,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
 
-@Configuration
-@Order(Ordered.HIGHEST_PRECEDENCE)
 public class CORSFilter implements Filter {
 
     public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException {

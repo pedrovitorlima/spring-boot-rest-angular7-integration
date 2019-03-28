@@ -36,12 +36,13 @@ error code with those messages.
 
 ## <a href="#cors-filter">CORS Filter</a>
 The <a href="https://github.com/pedrovitorlima/spring-boot-rest-angular7-integration/tree/master/src/main/java/br/pedro/sandbox/springandangular/config/CORSFilter.java">`CORSFilter`</a>
-class is a filter (dah) to intercept and add headers to avoid CORS problem. To read 
+class is a filter (dah) to intercept and add headers to avoid dev CORS problem. To read 
 more about CORS, please visit <a href="https://pt.wikipedia.org/wiki/Cross-origin_resource_sharing">Wikipedia</a>
 link.
 
 ## <a href="#jwt-configuration">JWT Configuration</a>
-@todo
+The authentication and security validations are made by `JWTLoginFilter` and `TokenAuthenticationFilter` 
+filters. Also, they are configured inside `SecurityTokenConfig` class.
 
 ## <a href="#angular7-example">Angular 7 Integration Example</a>
 You can take a look inside <a href="http://github.com/pedrovitorlima/angular7-rest-consume-example">this</a> 

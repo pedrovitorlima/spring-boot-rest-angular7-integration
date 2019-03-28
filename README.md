@@ -44,6 +44,6 @@ link.
 @todo
 
 ## <a href="#angular7-example">Angular 7 Integration Example</a>
-You can take a look inside <a href="github.com/pedrovitorlima/angular7-rest-consume-example">this</a> 
+You can take a look inside <a href="http://github.com/pedrovitorlima/angular7-rest-consume-example">this</a> 
 project to view a full example of those rest services integrated to a simple Angular 
 7 and bootstrap app.

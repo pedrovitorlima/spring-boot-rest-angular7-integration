@@ -1,5 +1,5 @@
 
-# Simple Spring Boot Rest Example With JWT
+#Spring Boot Rest Example With JWT
 
 Hey you! This is a simple project that make use of Spring Boot to provide a rest services to create 
 and find fake products. Maybe something in this code can help someone.

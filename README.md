@@ -11,7 +11,7 @@ and find fake products. Maybe something in this code can help someone.
 - [Angular 7 Integration Example](#angular7-example)
 
 ## <a href="#validation-messages">Validation Messages</a>
-The <a href="/src/main/java/br/pedro/sandbox/springandangular/exception/CustomRESTExceptionHandler.java">`CustomRESTExceptionHandler`</a>
+The <a href="./src/main/java/br/pedro/sandbox/springandangular/exception/CustomRESTExceptionHandler.java">`CustomRESTExceptionHandler`</a>
 class is a controller advice with intent to handle error messages. For example, if 
 we annotate a domain class property with `@NotNull('Please provide some value')` this 
 message can be send to requestor to handle it. In Angular, for example, we can do this 
@@ -34,7 +34,7 @@ String and fill it with field and global errors. After this, return a HTTP Bad R
 error code with those messages.
 
 ## <a href="#cors-filter">CORS Filter</a>
-The <a href="/src/main/java/br/pedro/sandbox/springandangular/config/CORSFilter.java">`CORSFilter`</a>
+The <a href="./src/main/java/br/pedro/sandbox/springandangular/config/CORSFilter.java">`CORSFilter`</a>
 class is a filter (dah) to intercept and add headers to avoid CORS problem. To read 
 more about CORS, please visit <a href="https://pt.wikipedia.org/wiki/Cross-origin_resource_sharing">Wikipedia</a>
 link.

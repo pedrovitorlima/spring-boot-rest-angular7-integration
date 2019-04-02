@@ -29,21 +29,5 @@ public class ProductRESTControllerTest {
 		assertNotNull(result.getResponse().getContentAsString());
 	}
 
-	
-//	@Before
-//	public void authenticate() throws Exception {
-//		Credentials credentials = new Credentials("bruce.dickinson", "bruce.dickinson");
-//		MvcResult result = mvc.perform(MockMvcRequestBuilders.post("/auth")
-//				.header("Origin", "*")
-//				.contentType(MediaType.APPLICATION_JSON)
-//				.content(new ObjectMapper().writeValueAsString(credentials))).andReturn();
-//
-//		this.authToken = result.getResponse().getHeader("Authorization");
-//	}
-//	
-//	@Test
-//	public void testIsAuthenticated() {
-//		assertNotNull(this.authToken);
-//	}
 
 }

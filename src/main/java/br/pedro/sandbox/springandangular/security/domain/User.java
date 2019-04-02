@@ -1,34 +1,35 @@
 package br.pedro.sandbox.springandangular.security.domain;
 
-import java.util.Date;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 import org.hibernate.validator.constraints.UniqueElements;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 public class User {
 
 	@Id
 	@GeneratedValue
+	@JsonIgnore
 	private Integer id;
 	
 	@UniqueElements
 	private String login;
 	
 	private String password;
-
+	
+	public User(final String login, final String password) {
+		this.login = login;
+		this.password = password;
+	}
+	
 	public User() {
 		
 	}
 	
-	public User(int id, Date birthDate, String name) {
-		super();
-		this.id = id;
-	}
-
 	public int getId() {
 		return id;
 	}
@@ -52,7 +53,5 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-
-	
 	
 }
